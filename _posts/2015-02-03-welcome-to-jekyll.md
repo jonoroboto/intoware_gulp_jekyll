@@ -1,9 +1,11 @@
 ---
+title: Welcome to Jekyll!
+date: 2015-02-03 00:00:00 Z
+categories:
+- src
+- jekyll
 layout: post
-date: 2015-02-03
-title:  Welcome to Jekyll!
 description: A post welcoming you to Jekyll
-categories: jekyll
 image: fox.jpg
 ---
 
