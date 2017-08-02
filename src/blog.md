@@ -5,7 +5,6 @@ permalink: /blog/
 ---
 
 <div class="home">
-
   <h1 class="page-heading">Posts</h1>
 
   <ul class="post-list">
@@ -18,7 +17,7 @@ permalink: /blog/
         </h2>
       </li>
       <div class="BG__overlay"></div>
-      <div class="Container__image" style="background: url({{ site.baseurl }}/imagens/{{ post.image }}); background-position: center; background-size: cover; background-blend-mode: screen;" data-tilt></div>
+      <div class="Container__image js-tilt" style="background: url({{ site.baseurl }}/imagens/{{ post.image }}); background-position: center; background-size: cover; background-blend-mode: screen;"></div>
     </div>
     {% endfor %}
   </ul>
