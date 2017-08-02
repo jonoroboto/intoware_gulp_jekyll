@@ -1,5 +1,5 @@
 ---
-title: Wokrflo Plus
+title: Intoware
 timezone: UTC
 collections:
   posts:
@@ -8,7 +8,7 @@ collections:
   uploads:
     title: Uploads
     output: true
-description: 
+description:
 url: http://workfloplus.com
 source: ".tmp/src"
 destination: ".tmp/dist"
@@ -17,10 +17,10 @@ exclude:
 author:
   name: Jono
   email: jonathan.alford@intoware.com
-  uri: 
-  bio: 
-  twitter: 
-  github: 
+  uri:
+  bio:
+  twitter:
+  github:
 future: true
 show_drafts: true
 lsi: false

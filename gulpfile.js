@@ -1,4 +1,4 @@
-// generated on 2017-07-31 using generator-jekyllized 1.0.0-rc.7
+// generated on 2017-08-02 using generator-jekyllized 1.0.0-rc.7
 'use strict';
 
 const gulp = require('gulp');
@@ -26,6 +26,10 @@ gulp.task('clean', gulp.parallel('clean:assets', 'clean:gzip', 'clean:dist', 'cl
 // 'gulp build' -- same as 'gulp' but doesn't serve your site in your browser
 // 'gulp build --prod' -- same as above but with production settings
 gulp.task('build', gulp.series('clean', 'assets', 'build:site', 'html'));
+
+// You can also just use 'gulp upload' but this way you can see all the main
+// tasks in the gulpfile instead of having to hunt for the deploy tasks
+gulp.task('deploy', gulp.series('upload'));
 
 // 'gulp rebuild' -- WARNING: Erases your assets and built site, use only when
 // you need to do a complete rebuild
