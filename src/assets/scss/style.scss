@@ -1,10 +1,11 @@
 /*
 The main SCSS file for everything, yep
 */
+@import "imports";
 
 @import "main";
 @import "base";
 @import "layout";
-@import "syntax-highlighting";
-
+@import "header";
 @import "posts";
+@import "syntax-highlighting";

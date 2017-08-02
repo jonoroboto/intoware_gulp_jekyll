@@ -5,7 +5,6 @@ layout: page
 ---
 
 <div class="home">
-  <h1 class="page-heading">Posts</h1>
 
   <ul class="post-list">
     {% for post in site.posts %}
@@ -17,7 +16,7 @@ layout: page
         </h2>
       </li>
       <div class="BG__overlay"></div>
-      <div class="Container__image js-tilt" style="background: url({{ site.baseurl }}/imagens/{{ post.image }}); background-position: center; background-size: cover; background-blend-mode: screen;"></div>
+      <div class="Container__image js-tilt" style="background: url({{ site.baseurl }}/assets/images/imagens/{{ post.image }}); background-position: center; background-size: cover; background-blend-mode: screen;"></div>
     </div>
     {% endfor %}
   </ul>
