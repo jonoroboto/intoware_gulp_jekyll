@@ -1,12 +1,12 @@
 ---
-title: Yeah buddy, another blog post
-date: 2017-02-03 00:00:00 Z
+title: A blog about a mountain
+date: 2017-04-12 00:00:00 Z
 categories:
 - src
 - jekyll
 layout: post
 description: A post welcoming you to Jekyll
-image: vr.jpg
+image: mountain.jpg
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build
